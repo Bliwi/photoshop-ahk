@@ -10,6 +10,8 @@ https://www.autohotkey.com/
 
 Photoshop must have the Options bar enabled, it is used as a hook to identify the active tool
 
+Download the Actions.atn file and click on the menu button of the actions pannel to load it.
+
 ---
 
 ### By default the script works best with the tools set to the following keys
