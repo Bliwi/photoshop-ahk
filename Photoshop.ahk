@@ -16,10 +16,10 @@ WinGetText, text
 ; msgbox, %text%
 IfInString, text, Subject
 {
-        suspend, off
-        SetTitleMatchMode 2
-        ScriptSuspend("PhotoshopLasso.ahk", true)  ; Suspended.
-        ScriptSuspend("PhotoshopAs.ahk", false) ; Unsuspend.
+	suspend, off
+	SetTitleMatchMode 2
+	ScriptSuspend("PhotoshopLasso.ahk", true)  ; Suspended.
+	ScriptSuspend("PhotoshopAs.ahk", false) ; Unsuspend.
 } else IfInString, text, °
 {
 	brush := true
@@ -42,7 +42,6 @@ else IfInString, text, Feather
 	SetTitleMatchMode 2
 	ScriptSuspend("PhotoshopLasso.ahk", true)  ; Suspended.
     ScriptSuspend("PhotoshopAs.ahk", true) ; Suspended.
-	; SoundBeep
 }
 sleep 600
 }
